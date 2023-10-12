@@ -4,5 +4,5 @@ from .models import Thing
 @admin.register(Thing)
 class UserAdmin(admin.ModelAdmin):
     list_display = [
-      'name', 'description', 'quantity'
-    ]
+                'name', 'description', 'quantity'
+                  ]
